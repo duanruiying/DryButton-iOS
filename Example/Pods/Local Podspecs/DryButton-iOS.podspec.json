@@ -1,0 +1,22 @@
+{
+  "name": "DryButton-iOS",
+  "version": "0.1.0",
+  "summary": "A short description of DryButton-iOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Dry/DryButton-iOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Dry": "2237840768@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Dry/DryButton-iOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DryButton-iOS/Classes/**/*"
+}

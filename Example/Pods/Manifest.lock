@@ -1,0 +1,16 @@
+PODS:
+  - DryButton-iOS (0.1.0)
+
+DEPENDENCIES:
+  - DryButton-iOS (from `../`)
+
+EXTERNAL SOURCES:
+  DryButton-iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DryButton-iOS: d6b569780326bca33f72d13026535282abb7cc63
+
+PODFILE CHECKSUM: f57afd4030b06c1f14169fcd16fb73bcdedc962e
+
+COCOAPODS: 1.8.0.beta.2

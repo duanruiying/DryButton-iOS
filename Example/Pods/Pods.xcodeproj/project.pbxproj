@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		176A9EA43903A088A544E1C7569C06B1 /* Pods-DryButton-iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B749A61F9CF43E9BF720C41089A8B73 /* Pods-DryButton-iOS_Example-dummy.m */; };
+		1B2C5C4BA75FD52B35B0DD4AB35DF053 /* DryButton-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF64367DE3044D301FD969FBFEE38C7E /* DryButton-iOS-dummy.m */; };
+		37AF523F2318ED6F0007D66D /* DryImageTitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AF523E2318ED6F0007D66D /* DryImageTitleButton.swift */; };
+		45CC5B036E2FAA936708367FB10654A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		49A69A511D72A4D4692C53B66185E87A /* Pods-DryButton-iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2D6AD3EE4A1F88FD453E4BCCCA3DA59 /* Pods-DryButton-iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		688CE996B5171C466D66A08C4B92CB05 /* Pods-DryButton-iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D83B5A09624886DAC673EB3D30B96E /* Pods-DryButton-iOS_Tests-dummy.m */; };
+		9389CE4CF947446E1276D2BB059E0095 /* Pods-DryButton-iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E9C065183707B9FE30D994593F2645 /* Pods-DryButton-iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A2A8BA05F5C64D025A9AB862242C3FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C62AFEAC5D1A0CFD17DA50274AD0090C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F3CD7B872A15D676F906C3196C4A8B39 /* DryButton-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74ACF4020D376A2C7BFD0B26410FC704 /* DryButton-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CDF6F745AAEBB408B33E2ACD6FF9D01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95C153DAC9ECBDBC9E58C9F6C1B68D36;
+			remoteInfo = "Pods-DryButton-iOS_Example";
+		};
+		62C96DCB15D09333A8214F6D7EBCA86F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 526295365FC4EED35766944358A62812;
+			remoteInfo = "DryButton-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03155850A84A4A1FEC1FD1580B6F7737 /* DryButton-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "DryButton-iOS.modulemap"; sourceTree = "<group>"; };
+		0984BF08133EE1C6498908EAF9048199 /* Pods-DryButton-iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DryButton-iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		13A78C4976630E15011C3206DBC8633F /* Pods-DryButton-iOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DryButton-iOS_Example-Info.plist"; sourceTree = "<group>"; };
+		23DDFFB99319BC1A01B0C97EF69C3EC5 /* DryButton-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DryButton-iOS.xcconfig"; sourceTree = "<group>"; };
+		2D58BFF2C1EE3B7AD6EC023D1F27441A /* DryButton-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DryButton-iOS-prefix.pch"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		37AF523E2318ED6F0007D66D /* DryImageTitleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DryImageTitleButton.swift; sourceTree = "<group>"; };
+		3B749A61F9CF43E9BF720C41089A8B73 /* Pods-DryButton-iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DryButton-iOS_Example-dummy.m"; sourceTree = "<group>"; };
+		41F1D471AD89993D38560967B5C541E2 /* DryButton-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "DryButton-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		48C0A61AB8E3F817721B302976BC9F8C /* Pods-DryButton-iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DryButton-iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		73C064547EDE2D60477D319AB3D88616 /* Pods-DryButton-iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DryButton-iOS_Tests.modulemap"; sourceTree = "<group>"; };
+		74ACF4020D376A2C7BFD0B26410FC704 /* DryButton-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DryButton-iOS-umbrella.h"; sourceTree = "<group>"; };
+		7B344E6BF9FB7519A815CBD9494787B8 /* Pods-DryButton-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DryButton-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7FA08C9F1C26C467135E67B1E4EFA50F /* Pods-DryButton-iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DryButton-iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		80D83B5A09624886DAC673EB3D30B96E /* Pods-DryButton-iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DryButton-iOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A26A424A1E038DFE06E6CD08AD96DCA0 /* Pods-DryButton-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DryButton-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A7AEBD2F0D4BEFFFF0C5C7D66F66192C /* DryButton_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DryButton_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9CEC188FF4DD87D68BD22D4433342D3 /* Pods-DryButton-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DryButton-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC41A5B682455EBBB5AFA7B79E37944B /* Pods-DryButton-iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DryButton-iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B8D92D0D18E1CE8C046EA4D55F8EE988 /* Pods-DryButton-iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DryButton-iOS_Example.modulemap"; sourceTree = "<group>"; };
+		B8DD7D75ACCD1DF9FAEA79C5323DB8FF /* Pods_DryButton_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DryButton_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4A4D30354AD5DF842CC32DA39F2F5A /* Pods-DryButton-iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DryButton-iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C4AF6C527B5497D0CE4EDCC4391D6C58 /* DryButton-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DryButton-iOS-Info.plist"; sourceTree = "<group>"; };
+		CF64367DE3044D301FD969FBFEE38C7E /* DryButton-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DryButton-iOS-dummy.m"; sourceTree = "<group>"; };
+		D6E9C065183707B9FE30D994593F2645 /* Pods-DryButton-iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DryButton-iOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		DBD63F9B38C6F3F4235896D69EAD93B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DE3A0738EBECCA6F9E405B63442C0236 /* Pods-DryButton-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DryButton-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E793123C7228C06647727FD9ECA5B9DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EBADA7E079BC547456D3BB9CDFD5E271 /* Pods-DryButton-iOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DryButton-iOS_Tests-Info.plist"; sourceTree = "<group>"; };
+		F2D6AD3EE4A1F88FD453E4BCCCA3DA59 /* Pods-DryButton-iOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DryButton-iOS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FD6BB753EC6017A8DFF24FEAAEDE5439 /* Pods_DryButton_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DryButton_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F542F0BA15454911F4A1BA734D81707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CC5B036E2FAA936708367FB10654A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9754845E2EA30A50D6C45B3437A3A69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A2A8BA05F5C64D025A9AB862242C3FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F285007B9AD0664A03BE79894176F147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62AFEAC5D1A0CFD17DA50274AD0090C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08E0C9D6ECB814EE38F5227C9E158D39 /* DryButton-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				37AF523D2318D4C00007D66D /* Code */,
+				3F42763C5435F5830137ADFD8676E42A /* Pod */,
+				AA75F10CF68AF7724A9A1929BF6F96F2 /* Support Files */,
+			);
+			name = "DryButton-iOS";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		28E39CCD8D734D5AF0F5AAAB77A40BAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7AEBD2F0D4BEFFFF0C5C7D66F66192C /* DryButton_iOS.framework */,
+				FD6BB753EC6017A8DFF24FEAAEDE5439 /* Pods_DryButton_iOS_Example.framework */,
+				B8DD7D75ACCD1DF9FAEA79C5323DB8FF /* Pods_DryButton_iOS_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37AF523D2318D4C00007D66D /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				37AF523E2318ED6F0007D66D /* DryImageTitleButton.swift */,
+			);
+			name = Code;
+			path = "DryButton-iOS/Classes/Code";
+			sourceTree = "<group>";
+		};
+		3C020127A7DB3D24425529FE6C7184CB /* Pods-DryButton-iOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				73C064547EDE2D60477D319AB3D88616 /* Pods-DryButton-iOS_Tests.modulemap */,
+				7FA08C9F1C26C467135E67B1E4EFA50F /* Pods-DryButton-iOS_Tests-acknowledgements.markdown */,
+				48C0A61AB8E3F817721B302976BC9F8C /* Pods-DryButton-iOS_Tests-acknowledgements.plist */,
+				80D83B5A09624886DAC673EB3D30B96E /* Pods-DryButton-iOS_Tests-dummy.m */,
+				EBADA7E079BC547456D3BB9CDFD5E271 /* Pods-DryButton-iOS_Tests-Info.plist */,
+				F2D6AD3EE4A1F88FD453E4BCCCA3DA59 /* Pods-DryButton-iOS_Tests-umbrella.h */,
+				A9CEC188FF4DD87D68BD22D4433342D3 /* Pods-DryButton-iOS_Tests.debug.xcconfig */,
+				DE3A0738EBECCA6F9E405B63442C0236 /* Pods-DryButton-iOS_Tests.release.xcconfig */,
+			);
+			name = "Pods-DryButton-iOS_Tests";
+			path = "Target Support Files/Pods-DryButton-iOS_Tests";
+			sourceTree = "<group>";
+		};
+		3F42763C5435F5830137ADFD8676E42A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				41F1D471AD89993D38560967B5C541E2 /* DryButton-iOS.podspec */,
+				E793123C7228C06647727FD9ECA5B9DE /* LICENSE */,
+				DBD63F9B38C6F3F4235896D69EAD93B4 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6ACAA853A754F25D83826C95C559C6E7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BA9CDCC8FD3CD4C89F5F9BE1A938E9E /* Pods-DryButton-iOS_Example */,
+				3C020127A7DB3D24425529FE6C7184CB /* Pods-DryButton-iOS_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7BA9CDCC8FD3CD4C89F5F9BE1A938E9E /* Pods-DryButton-iOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B8D92D0D18E1CE8C046EA4D55F8EE988 /* Pods-DryButton-iOS_Example.modulemap */,
+				AC41A5B682455EBBB5AFA7B79E37944B /* Pods-DryButton-iOS_Example-acknowledgements.markdown */,
+				BE4A4D30354AD5DF842CC32DA39F2F5A /* Pods-DryButton-iOS_Example-acknowledgements.plist */,
+				3B749A61F9CF43E9BF720C41089A8B73 /* Pods-DryButton-iOS_Example-dummy.m */,
+				0984BF08133EE1C6498908EAF9048199 /* Pods-DryButton-iOS_Example-frameworks.sh */,
+				13A78C4976630E15011C3206DBC8633F /* Pods-DryButton-iOS_Example-Info.plist */,
+				D6E9C065183707B9FE30D994593F2645 /* Pods-DryButton-iOS_Example-umbrella.h */,
+				A26A424A1E038DFE06E6CD08AD96DCA0 /* Pods-DryButton-iOS_Example.debug.xcconfig */,
+				7B344E6BF9FB7519A815CBD9494787B8 /* Pods-DryButton-iOS_Example.release.xcconfig */,
+			);
+			name = "Pods-DryButton-iOS_Example";
+			path = "Target Support Files/Pods-DryButton-iOS_Example";
+			sourceTree = "<group>";
+		};
+		7C212345EDDB853B7F7DEDD68B2615BA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08E0C9D6ECB814EE38F5227C9E158D39 /* DryButton-iOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AA75F10CF68AF7724A9A1929BF6F96F2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				03155850A84A4A1FEC1FD1580B6F7737 /* DryButton-iOS.modulemap */,
+				23DDFFB99319BC1A01B0C97EF69C3EC5 /* DryButton-iOS.xcconfig */,
+				CF64367DE3044D301FD969FBFEE38C7E /* DryButton-iOS-dummy.m */,
+				C4AF6C527B5497D0CE4EDCC4391D6C58 /* DryButton-iOS-Info.plist */,
+				2D58BFF2C1EE3B7AD6EC023D1F27441A /* DryButton-iOS-prefix.pch */,
+				74ACF4020D376A2C7BFD0B26410FC704 /* DryButton-iOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DryButton-iOS";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7C212345EDDB853B7F7DEDD68B2615BA /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				28E39CCD8D734D5AF0F5AAAB77A40BAC /* Products */,
+				6ACAA853A754F25D83826C95C559C6E7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		31FCE4E96BD8A1E3BD43359A38B24D88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A69A511D72A4D4692C53B66185E87A /* Pods-DryButton-iOS_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF78CB43BF9D11FE61AF888DD4D6DD0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9389CE4CF947446E1276D2BB059E0095 /* Pods-DryButton-iOS_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D08B2B1275082AFC52D9D45BD25EC386 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CD7B872A15D676F906C3196C4A8B39 /* DryButton-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		526295365FC4EED35766944358A62812 /* DryButton-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95D91CF011FDCAE9337841E79A7DE934 /* Build configuration list for PBXNativeTarget "DryButton-iOS" */;
+			buildPhases = (
+				D08B2B1275082AFC52D9D45BD25EC386 /* Headers */,
+				BB67A72AA2654AE6F676EBF61EF68824 /* Sources */,
+				4F542F0BA15454911F4A1BA734D81707 /* Frameworks */,
+				B243269278DC4428E6FB693BAABA9A22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DryButton-iOS";
+			productName = "DryButton-iOS";
+			productReference = A7AEBD2F0D4BEFFFF0C5C7D66F66192C /* DryButton_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		95C153DAC9ECBDBC9E58C9F6C1B68D36 /* Pods-DryButton-iOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E636306B49CB9F5D0D076AA6E4A4936 /* Build configuration list for PBXNativeTarget "Pods-DryButton-iOS_Example" */;
+			buildPhases = (
+				8AF78CB43BF9D11FE61AF888DD4D6DD0 /* Headers */,
+				F4DF209A4145D7BBBE1CA364DB5B57B3 /* Sources */,
+				F285007B9AD0664A03BE79894176F147 /* Frameworks */,
+				2FF8DF45CAFE5468FED33A9780C2C01A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54BD5D92B4012088A9A6E3A8FC7D081F /* PBXTargetDependency */,
+			);
+			name = "Pods-DryButton-iOS_Example";
+			productName = "Pods-DryButton-iOS_Example";
+			productReference = FD6BB753EC6017A8DFF24FEAAEDE5439 /* Pods_DryButton_iOS_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFC510E56FD3414591E1BA6A66A39B51 /* Pods-DryButton-iOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 290D49A914C22DC0EB0429F8CC6FBB0B /* Build configuration list for PBXNativeTarget "Pods-DryButton-iOS_Tests" */;
+			buildPhases = (
+				31FCE4E96BD8A1E3BD43359A38B24D88 /* Headers */,
+				648B3D18F92336BF29DD452E738F6395 /* Sources */,
+				C9754845E2EA30A50D6C45B3437A3A69 /* Frameworks */,
+				A0BFF2C50587F63166CF13F68505DCAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C40D62C455028139E8433FF147804ABC /* PBXTargetDependency */,
+			);
+			name = "Pods-DryButton-iOS_Tests";
+			productName = "Pods-DryButton-iOS_Tests";
+			productReference = B8DD7D75ACCD1DF9FAEA79C5323DB8FF /* Pods_DryButton_iOS_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					526295365FC4EED35766944358A62812 = {
+						LastSwiftMigration = 1030;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 28E39CCD8D734D5AF0F5AAAB77A40BAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				526295365FC4EED35766944358A62812 /* DryButton-iOS */,
+				95C153DAC9ECBDBC9E58C9F6C1B68D36 /* Pods-DryButton-iOS_Example */,
+				CFC510E56FD3414591E1BA6A66A39B51 /* Pods-DryButton-iOS_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FF8DF45CAFE5468FED33A9780C2C01A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0BFF2C50587F63166CF13F68505DCAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B243269278DC4428E6FB693BAABA9A22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		648B3D18F92336BF29DD452E738F6395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688CE996B5171C466D66A08C4B92CB05 /* Pods-DryButton-iOS_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB67A72AA2654AE6F676EBF61EF68824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37AF523F2318ED6F0007D66D /* DryImageTitleButton.swift in Sources */,
+				1B2C5C4BA75FD52B35B0DD4AB35DF053 /* DryButton-iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DF209A4145D7BBBE1CA364DB5B57B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176A9EA43903A088A544E1C7569C06B1 /* Pods-DryButton-iOS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54BD5D92B4012088A9A6E3A8FC7D081F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DryButton-iOS";
+			target = 526295365FC4EED35766944358A62812 /* DryButton-iOS */;
+			targetProxy = 62C96DCB15D09333A8214F6D7EBCA86F /* PBXContainerItemProxy */;
+		};
+		C40D62C455028139E8433FF147804ABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DryButton-iOS_Example";
+			target = 95C153DAC9ECBDBC9E58C9F6C1B68D36 /* Pods-DryButton-iOS_Example */;
+			targetProxy = 5CDF6F745AAEBB408B33E2ACD6FF9D01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0508B47D74D5D60EBC08F0E20CFEF558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9CEC188FF4DD87D68BD22D4433342D3 /* Pods-DryButton-iOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DryButton-iOS_Tests/Pods-DryButton-iOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DryButton-iOS_Tests/Pods-DryButton-iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3728A016764EBD081F47D698273302A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A26A424A1E038DFE06E6CD08AD96DCA0 /* Pods-DryButton-iOS_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DryButton-iOS_Example/Pods-DryButton-iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DryButton-iOS_Example/Pods-DryButton-iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		83395727A7285DFC83AA59DF6DE4D019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23DDFFB99319BC1A01B0C97EF69C3EC5 /* DryButton-iOS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DryButton-iOS/DryButton-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DryButton-iOS/DryButton-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DryButton-iOS/DryButton-iOS.modulemap";
+				PRODUCT_MODULE_NAME = DryButton_iOS;
+				PRODUCT_NAME = DryButton_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		866C835059BA1EBCF5C546E138992F79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B344E6BF9FB7519A815CBD9494787B8 /* Pods-DryButton-iOS_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DryButton-iOS_Example/Pods-DryButton-iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DryButton-iOS_Example/Pods-DryButton-iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A96CCB45BEE02FEB04AB59FF5DBAE1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23DDFFB99319BC1A01B0C97EF69C3EC5 /* DryButton-iOS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DryButton-iOS/DryButton-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DryButton-iOS/DryButton-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DryButton-iOS/DryButton-iOS.modulemap";
+				PRODUCT_MODULE_NAME = DryButton_iOS;
+				PRODUCT_NAME = DryButton_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EA0C1EAE1D964A0AA18EA8CAC53725FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE3A0738EBECCA6F9E405B63442C0236 /* Pods-DryButton-iOS_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DryButton-iOS_Tests/Pods-DryButton-iOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DryButton-iOS_Tests/Pods-DryButton-iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		290D49A914C22DC0EB0429F8CC6FBB0B /* Build configuration list for PBXNativeTarget "Pods-DryButton-iOS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0508B47D74D5D60EBC08F0E20CFEF558 /* Debug */,
+				EA0C1EAE1D964A0AA18EA8CAC53725FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95D91CF011FDCAE9337841E79A7DE934 /* Build configuration list for PBXNativeTarget "DryButton-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83395727A7285DFC83AA59DF6DE4D019 /* Debug */,
+				A96CCB45BEE02FEB04AB59FF5DBAE1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E636306B49CB9F5D0D076AA6E4A4936 /* Build configuration list for PBXNativeTarget "Pods-DryButton-iOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3728A016764EBD081F47D698273302A7 /* Debug */,
+				866C835059BA1EBCF5C546E138992F79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
