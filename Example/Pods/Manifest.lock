@@ -1,5 +1,5 @@
 PODS:
-  - DryButton-iOS (0.1.0)
+  - DryButton-iOS (0.0.1)
 
 DEPENDENCIES:
   - DryButton-iOS (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DryButton-iOS: d6b569780326bca33f72d13026535282abb7cc63
+  DryButton-iOS: 9f7a35b2e2aaea41460dd55da21530962d04a571
 
-PODFILE CHECKSUM: f57afd4030b06c1f14169fcd16fb73bcdedc962e
+PODFILE CHECKSUM: 1ee8cc8aa7563a5a81ba54a33c96ffe17ad2e830
 
 COCOAPODS: 1.8.0.beta.2
